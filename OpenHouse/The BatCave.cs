@@ -11,19 +11,7 @@ namespace OpenHouse
 
         public string Description { get; set; }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+        // maybe add more properties like size, etc.? //
 
     }
 
