@@ -41,60 +41,86 @@ namespace OpenHouse
                     response = Console.ReadLine();
 
                 }
-                if (response.ToUpper() == "NO")
+                else if (response.ToUpper() == "NO")
                 {
                     Console.Clear();
                 }
 
                 Console.WriteLine("Welcome To The Stately Wayne Manor\nLocated in the Crest Hill Community approximately 12 miles outside of Gotham City\nAt 42,500 it is slightly smaller than The Gotham Rouges football field.");
-                SpeakingDelay();Console.Clear();
+                SpeakingDelay();
+                Console.Clear();
                 Console.WriteLine("The Estate is the current home of Bruce Wayne\nThe heir to Wayne Industries the most prominent tech firm in the world.");
-                SpeakingDelay();Console.Clear();
+                SpeakingDelay();
+                Console.Clear();
                 Console.WriteLine("The palacial residence pertains 11rooms and 7bathrooms,\nif on the market today it would appraise for 32,100,000.");
-                SpeakingDelay();Console.Clear();
+                SpeakingDelay();
+                Console.Clear();
                 Console.WriteLine("Originally Designed by Nathan van Derm as a commission for Darius Wayne in 1795\nThe project was inherited by Darius'sons; Solomon Zebadiah Wayne and Joshua Thomas Wayne in 1858.");
-                SpeakingDelay();Console.Clear();
+                SpeakingDelay();
+                Console.Clear();
                 Console.WriteLine("While construction was underway the wayne siblings discovered catacombs\nunder the soon to be built estate.");
-                SpeakingDelay();Console.Clear();
+                SpeakingDelay();
+                Console.Clear();
                 Console.WriteLine("The Waynes exploited their nack for humanatarian efforts,\nThis was one of the last stops on the upper east coast for The Underground Railroad.");
-                SpeakingDelay();Console.Clear();
+                SpeakingDelay();
+                Console.Clear();
                 Console.WriteLine("Fredrick Douglass and Harriet Tubman are included on the list of our many disinguished guests");
             }
             else if (response.ToUpper() == "YES")
             {
                 Console.Clear();
                 Console.WriteLine("Welcome To The Stately Wayne Manor\nLocated in the Crest Hill Community approximately 12 miles outside of Gotham City\nAt 42,500 it is slightly smaller than The Gotham Rouges football field.");
-                SpeakingDelay();Console.Clear();
+                SpeakingDelay();
+                Console.Clear();
                 Console.WriteLine("The Estate is the current home of Bruce Wayne\nThe heir to Wayne Industries the most prominent tech firm in the world.");
-                SpeakingDelay();Console.Clear();
+                SpeakingDelay();
+                Console.Clear();
                 Console.WriteLine("The palacial residence pertains 11rooms and 7bathrooms,\nif on the market today it would appraise for 32,100,000.");
-                SpeakingDelay();Console.Clear();
+                SpeakingDelay();
+                Console.Clear();
                 Console.WriteLine("Originally Designed by Nathan van Derm as a commission for Darius Wayne in 1795\nThe project was inherited by Darius'sons; Solomon Zebadiah Wayne and Joshua Thomas Wayne in 1858.");
-                SpeakingDelay(); Console.Clear(); 
+                SpeakingDelay();
+                Console.Clear(); 
                 Console.WriteLine("While construction was underway the wayne siblings discovered catacombs\nunder the soon to be built estate.");
-                SpeakingDelay();Console.Clear();
+                SpeakingDelay();
+                Console.Clear();
                 Console.WriteLine("The Waynes exploited their nack for humanatarian efforts,\nThis was one of the last stops on the upper east coast for The Underground Railroad.");
-                SpeakingDelay();Console.Clear();
+                SpeakingDelay();
+                Console.Clear();
                 Console.WriteLine("Fredrick Douglass and Harriet Tubman are included on the list of our many disinguished guests");
             }
 
             Console.WriteLine("Please forgive me, I forgot acquire your name?");
-            response = Console.ReadLine();Console.Clear(); 
+            response = Console.ReadLine();
+            Console.Clear(); 
             Console.WriteLine(response + ", it is a pleasure to meet you.");
-            Console.ForegroundColor = ConsoleColor.DarkYellow;SpeakingDelay(); Console.Clear();
-            Console.WriteLine("WOOF WOOF, GRRRRRRRRRRRRRRRRR");SpeakingDelay();
-            Console.ForegroundColor = ConsoleColor.White; Console.Clear();
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            SpeakingDelay();
+            Console.Clear();
+            Console.WriteLine("WOOF WOOF, GRRRRRRRRRRRRRRRRR");
+            SpeakingDelay();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Clear();
             Console.WriteLine("CALM DOWN BEFORE YOU FRIGHTEN OUR GUEST");SpeakingDelay();
-            Console.WriteLine(response + ",This is Archabald Charles Edmondson known as ACE our estate overseer he seems a bit awnry.\nI promise not to let him bite a plug in you"); SpeakingDelay(); Console.Clear();
-            Console.WriteLine("Perhaps a size 12, For snack ACE"); SpeakingDelay(); Console.Clear();
+            Console.WriteLine(response + ",This is Archabald Charles Edmondson known as ACE our estate overseer he seems a bit awnry.\nI promise not to let him bite a plug in you");
+            SpeakingDelay();
+            Console.Clear();
+            Console.WriteLine("Perhaps a size 12, For snack ACE");
+            SpeakingDelay();
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("whimper");SpeakingDelay(); Console.Clear();
+            Console.WriteLine("whimper");SpeakingDelay();
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("Oh Hush");SpeakingDelay(); Console.Clear();
+            Console.WriteLine("Oh Hush");SpeakingDelay();
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("WOOF");SpeakingDelay(); Console.Clear();
+            Console.WriteLine("WOOF");SpeakingDelay();
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("I wont be accepting any Tom Foolery from you today,\n Now say hello or retire to your quarters");SpeakingDelay(); Console.Clear();
+            Console.WriteLine("I wont be accepting any Tom Foolery from you today,\n Now say hello or retire to your quarters");
+            SpeakingDelay();
+            Console.Clear();
 
             The_BatCave batcave = new The_BatCave();
             batcave.Name = "The Batcave";
