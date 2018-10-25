@@ -9,6 +9,7 @@ namespace OpenHouse
         {
             Thread.Sleep(4000);
         }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Open house\nAugust 15th 2008\n4:00pm\n1007 Mountian Drive,Gotham");
@@ -41,8 +42,11 @@ namespace OpenHouse
 
                 }
                 if (response.ToUpper() == "NO")
+                {
                     Console.Clear();
-                    Console.WriteLine("Welcome To The Stately Wayne Manor\nLocated in the Crest Hill Community approximately 12 miles outside of Gotham City\nAt 42,500 it is slightly smaller than The Gotham Rouges football field.");
+                }
+
+                Console.WriteLine("Welcome To The Stately Wayne Manor\nLocated in the Crest Hill Community approximately 12 miles outside of Gotham City\nAt 42,500 it is slightly smaller than The Gotham Rouges football field.");
                 SpeakingDelay();Console.Clear();
                 Console.WriteLine("The Estate is the current home of Bruce Wayne\nThe heir to Wayne Industries the most prominent tech firm in the world.");
                 SpeakingDelay();Console.Clear();
@@ -56,8 +60,6 @@ namespace OpenHouse
                 SpeakingDelay();Console.Clear();
                 Console.WriteLine("Fredrick Douglass and Harriet Tubman are included on the list of our many disinguished guests");
             }
-
-
             else if (response.ToUpper() == "YES")
             {
                 Console.Clear();
@@ -75,6 +77,7 @@ namespace OpenHouse
                 SpeakingDelay();Console.Clear();
                 Console.WriteLine("Fredrick Douglass and Harriet Tubman are included on the list of our many disinguished guests");
             }
+
             Console.WriteLine("Please forgive me, I forgot acquire your name?");
             response = Console.ReadLine();Console.Clear(); 
             Console.WriteLine(response + ", it is a pleasure to meet you.");
@@ -103,5 +106,4 @@ namespace OpenHouse
             Console.ReadLine();
         }
     }
-
 }
